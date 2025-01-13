@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            margin: 0;
+         font-family: 'Arial', sans-serif;
+            background-image: url(wel.png);
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+        nav a {
+            text-decoration: none;
+            color:#024aa899;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 100px 20px;
+        }
+
+        .title {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 50px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 1rem;
+            background-color: #024aa899;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #023367dc;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+                <a href="welcome.html">Home</a>
+                <a href="weather.html">weather</a>
+                <a href="webmap.html">Map Feature</a>
+              </div>
+              
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="title">HELLO and WELCOME :)</h1>
+        <p class="subtitle">Want to know what the weather is right now?</p>
+        <p>Click here to find out!</p>
+        <div class="buttons">
+            <a href="weather.html" class="button">Find weather</a>
+        </div>
+    </div>
+
+    <footer>
+       &copy; All rights reserved.
+    </footer>
+</body>
+</html>
